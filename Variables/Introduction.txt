@@ -1,0 +1,19 @@
+
+                         ---A brief introduction on Variables---
+
+  Definition: In a programming language "Variables" are like Containers to store "some data" in it.
+        ex: Let's take -->  x = 20
+        Here x is considered as "Variables" & 20 is "data" which is stored in the container.
+
+        int a = 20;
+        float b = 3.5;
+        double c = 3.56;
+        String Name = "Some Name";
+        int[] arr = {1,2,3,4};
+
+        From the above examples we can observe that,
+        a, b, c, Name, arr --> These all are reference "Variables".
+        20, 3.5, 3.56, "Some Name", {1,2,3,4} --> These all are the "data" which is stored in the Variables.
+
+        NOTE: Observe that we have declared every Variable with a specific name,
+               Those specific names int, float, double, string, arr --> These all are known as Data Type.
