@@ -1,0 +1,22 @@
+Every variable in java has a data type. Data types specify the size and type of values that can be stored in an identifier. Java language is rich in its data types. The variety of data types available allow the programmer to select the type appropriate to the need of the application.
+
+In java, data types are classified into two categories:
+
+Primitive Data type or Intrinsic or built-in data type
+Non-Primitive Data type or derived  or reference data type
+
+primitive data types are;
+        byte 
+        short  
+        int 
+        long 
+        float
+        double
+        boolean
+        char
+
+Non-primitive data types are;
+        Arrays
+        Strings
+        Stack
+        etc..

@@ -1,0 +1,46 @@
+Conditional Statements :
+    In any programming language conditional statements are like "instructions"
+    that tells the computer to do different things based on certain conditions.
+
+Conditional statements are of three types:
+    1.if condition
+    2.if-else condition
+    3.switch statement 
+
+Let's take an real life example,
+    you have decided to go to a movie but outside is raining, Now imagine what to wear 
+    in general it is simple to answer, but think how to ans it in coding 
+    ok now learn how to answer it in the coding aspect
+
+1.if statement: 
+    it is used to execute a block of code only if a specified condition is true.
+
+    // if condition
+      if(weather = raining) {
+        System.out.println("Take umbrella");
+      }
+
+2.if-else statement:
+    it is used to execute a block of code if the specified condition is true, 
+    and another block of code if the condition is false.
+
+    // if-else condition
+     if(weather = sunny) {
+        system.out.println("wear glasses");
+     } else {
+        system.out.println("take umbrella");
+     }
+
+     in the above code, observe carefully our conditon is weather is raining but the if block condition is false, hence it will print else block code.
+
+3.switch statement:
+    it is used to select one of many code blocks to be executed.
+
+    // switch condition
+    switch(2) {
+        case 1: System.out.print("Wear sunglasses"); break;
+        case 2: system.out.print("take umbrella"); break;
+        case 3: system.out.print("go normally"); break;
+    }
+
+    in the above code, the switch condition is aiming for certain condition, the condition is satisfied in the case 2 statement, it will print the output.
