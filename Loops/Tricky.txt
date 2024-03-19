@@ -1,0 +1,12 @@
+package Loops;
+
+public class Tricky {
+    public static void main(String[] args) {
+        for(int i=0; i<= 5; i++) {
+            System.out.println("i = " + i);
+        }
+        System.out.println("i after loop %s", i);
+    }
+}
+
+/* Here we got error because i runs only inside the loop, it doesn't execute outside of the loop */

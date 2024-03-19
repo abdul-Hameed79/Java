@@ -1,0 +1,42 @@
+
+Operators: operators based on some symbols those symbols tells the compailer to do some work.
+
+operators are classified as,
+
+1. Arithmetic operators --> it furthur divided into 'Binary operator' and 'Unary operator'.
+
+        Binary operator
+            +  --> 10 + 20   or   a=10, b=20  --> a+b;
+
+            -  --> 10 - 20   or   a=10, b=20  --> a-b;
+
+            *  --> 10 * 20   or   a=10, b=20  --> a*b;
+
+            /  --> 10 / 20   or   a=10, b=20  --> a/b;
+
+            %  --> 10 % 20   or   a=10, b=20  --> a%b;
+
+        Unary operator
+            ++  --> a = 10     pre increment --> ++a = 11,     post increment --> a++ = 10
+            --  --> a = 10     pre increment --> --a = 9,     post increment --> a-- = 10
+
+2. Relational Operators
+            == 
+            !=
+            >
+            <
+            >=
+            <=
+
+3. Assignment operators
+            +=
+            -=
+            *=
+            /=
+
+4. Logical operators
+            &&
+            ||
+            !
+
+5. Bitwise operators --> we'll learn it in it the BitManupilation section
