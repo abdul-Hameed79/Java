@@ -14,7 +14,7 @@ public class BreakExample {
         // with while loop
         int count = 1;
         while (count <= 5) {
-            System.out.println("keep prcticing");
+            System.out.println("keep practicing");
             count++;
 
             if (count == 3) {
@@ -23,4 +23,3 @@ public class BreakExample {
         }
     }
 }
-
