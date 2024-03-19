@@ -28,6 +28,8 @@ public class BubbleSort {
 
         // Bubble sorting
         for(int i=0; i<arr.length-1; i++){
+             @SuppressWarnings("unused")
+            boolean swap = false;
             for (int j=0; j<arr.length-i-1; j++){
                 if(arr[j] < arr[j+1]){
 
@@ -36,6 +38,7 @@ public class BubbleSort {
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
                 }
+                swap = true;
             }
         }
         // print the final output
