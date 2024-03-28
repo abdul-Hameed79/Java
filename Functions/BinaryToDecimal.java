@@ -4,6 +4,8 @@ package Functions;
 import java.util.Scanner;
 
 public class BinaryToDecimal {
+
+    // Main method
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -16,7 +18,8 @@ public class BinaryToDecimal {
         // function call
         ConBinToDec(BinNum);
     }
-    
+
+    // Function to change Binary value into Decimal value
     public static void ConBinToDec(int BinNum) {
         int MyNum = BinNum;
         int Pow = 0;
