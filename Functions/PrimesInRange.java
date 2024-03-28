@@ -4,6 +4,7 @@ package Functions;
 import java.util.Scanner;
 
 public class PrimesInRange {
+    // Direct method...
     // public static void main(String[] args) {
     //     int start = 10;
     //     int end = 100;
@@ -38,6 +39,7 @@ public class PrimesInRange {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // Input taking from user...
         System.out.print("Enter Start value: ");
         int start = sc.nextInt();
 
