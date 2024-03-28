@@ -7,7 +7,7 @@ public class ReverseNumber {
         // loop to reverse the number
         while(num > 0) {
             rem = num % 10;
-            revNum = revNum *10 + rem;
+            revNum = revNum * 10 + rem;
             num /= 10;
         }
         return revNum;
