@@ -2,7 +2,7 @@
 
 package Arrays;
 
-public class LinearSearch {
+public class LinearSearch1 {
     static int foundTarget(int[] arr, int target) {
         for(int i=0; i<arr.length; i++) {
             if(arr[i]==target) {
