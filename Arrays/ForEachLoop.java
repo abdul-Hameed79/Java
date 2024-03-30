@@ -6,25 +6,25 @@ public class ForEachLoop {
 
     public static int maximum(int[] numbers) 
     {  
-        int maxNum = numbers[0]; 
+        int largest = numbers[0]; 
           
         // for each loop 
         for (int i : numbers)  
         { 
-            if (i > maxNum) 
+            if (i > largest) 
             { 
-                maxNum = i;
+                largest = i;
             } 
         } 
-    return maxNum; 
+    return largest; 
     } 
 
     public static void main(String[] arg) 
     { 
         { 
-            int[] marks = { 125, 132, 95, 116, 110 }; 
+            int[] age = {35, 25, 55, 45, 37}; 
               
-            System.out.println("The highest marks are " + maximum(marks)); 
+            System.out.println("The highest age is " + maximum(age)); 
         } 
     } 
 }
