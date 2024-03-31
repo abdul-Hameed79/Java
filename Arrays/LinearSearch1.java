@@ -1,4 +1,7 @@
-/* An array of numbers are given, in this array print the target value */
+/* An array of numbers are given, in this array print the target value 
+ * Time Complexity is O(n)
+ * Space Complexity is O(1)
+*/
 
 package Arrays;
 

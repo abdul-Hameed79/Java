@@ -11,8 +11,8 @@ public class LinearSearch2 {
     }
 
     public static void main(String[] args) {
-        String[] names = {"Hameed", "Afreen", "Akmal", "X"};
-        String target = "Akmal";
+        String[] names = {"H", "N", "W", "X"};
+        String target = "W";
 
         int result = foundTarget(names, target);
 
