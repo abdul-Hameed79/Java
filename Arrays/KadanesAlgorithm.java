@@ -20,7 +20,7 @@ public class KadanesAlgorithm {
     public static void main(String[] args) {
         int[] arr = {2, -3, 4, 1, -9};
 
-        // Function call
+    // Function call
         maxSubArraySum(arr);
     }
 }
