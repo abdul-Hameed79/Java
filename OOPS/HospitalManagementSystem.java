@@ -155,7 +155,8 @@ public class HospitalManagementSystem {
         System.out.println("Scheduled Appointments:");
         int appointmentNumber = 1;
         for (Appointment appointment : appointments) {
-            System.out.println("Appointment " + appointmentNumber + ": " + "Date: " + appointment.getDate() +"  " + "Patient: " + appointment.getPatient().getName() + "  " + "Doctor: " + appointment.getDoctor().getName());
+            System.out.println("Appointment " + appointmentNumber + ": " + "Date: " + appointment.getDate() +"  " + 
+                               "Patient: " + appointment.getPatient().getName() + "  " + "Doctor: " + appointment.getDoctor().getName());
             appointmentNumber++;
         }
     }
