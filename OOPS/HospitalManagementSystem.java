@@ -54,7 +54,8 @@ class Patient {
 
     // Method to print patient details
     public void printDetails(int number) {
-        System.out.println("S.NO " + number + ": " + "Name: " + name + "  " + "Age: " + age + "  " + "Gender: " + gender + "  " + "Illness: " + illness); 
+        System.out.println("S.NO " + number + ": " + "Name: " + name + "  " + "Age: " +
+                        age + "  " + "Gender: " + gender + "  " + "Illness: " + illness); 
     }
 }
 
@@ -207,7 +208,7 @@ public class HospitalManagementSystem {
         hospital.printAllDoctors();
         System.out.println();
 
-        // Display appointments
+        // Display all appointments
         hospital.displayAppointments();
         scanner.close();
     }
