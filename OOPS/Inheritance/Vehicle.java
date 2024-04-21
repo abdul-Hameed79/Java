@@ -14,7 +14,7 @@ class Car extends Vehicle {
     public static void main(String[] args) {
         // create a mycar object
         Car mycar = new Car();
-        // Display the brand and model names ffrom vehicle class & year from car class
+        // Display the brand and model names from vehicle class & year from car class
         System.out.println("Brand: " + mycar.brand + "  " + "\nModel: " + mycar.model + "  " + "\nLaunch year: " + mycar.year);
     }
 }
