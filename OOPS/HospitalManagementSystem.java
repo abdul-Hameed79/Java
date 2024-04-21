@@ -4,7 +4,6 @@ package OOPS;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 class Patient {
     private String name;
@@ -184,7 +183,6 @@ public class HospitalManagementSystem {
 
     public static void main(String[] args) {
         HospitalManagementSystem hospital = new HospitalManagementSystem();
-        Scanner scanner = new Scanner(System.in);
 
         // Add patients
         hospital.addPatient(new Patient("John Doe", 35, "Male", "Fever"));
@@ -210,6 +208,5 @@ public class HospitalManagementSystem {
 
         // Display all appointments
         hospital.displayAppointments();
-        scanner.close();
     }
 }
