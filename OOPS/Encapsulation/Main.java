@@ -35,6 +35,6 @@ public class Main {
        myObj.setAge(21);
 
        // Display data
-       System.out.println("Name : " + myObj.getName() + "\nAge : " + myObj.getAge());
+       System.out.println("Name: " + myObj.getName() + "\nAge: " + myObj.getAge());
     }
 }
