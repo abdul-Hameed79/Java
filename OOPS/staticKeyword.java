@@ -2,7 +2,7 @@
 
 package OOPS;
 
-public class publicVSstatic {
+public class staticKeyword {
 
     // Staic Method
     static void mystaticMethod() {
@@ -18,7 +18,7 @@ public class publicVSstatic {
     public static void main(String[] args) {
         mystaticMethod(); // static method called without the help of any objects
 
-        publicVSstatic myobj = new publicVSstatic();
+        staticKeyword myobj = new staticKeyword();
         myobj.mypublicMethod();  // public method called with the help of object
     }
 }
