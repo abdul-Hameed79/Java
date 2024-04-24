@@ -8,20 +8,24 @@ abstract class A {
 class B extends A {
     @Override
     public void fun1() {
-        System.out.println("fun1 output");
+        System.out.println("fun1 output in B");
     }
+
+    @Override
     public void fun2() {
-        System.out.println("fun2 output");
+        System.out.println("fun2 output in B");
     }
 }
 
 class C extends A {
     @Override
     public void fun1() {
-        System.out.println("fun1 another output");
+        System.out.println("fun1 output in C");
     }
+
+    @Override
     public void fun2() {
-        System.out.println("fun2 another output");
+        System.out.println("fun2 output in C");
     }
 }
 
@@ -29,20 +33,20 @@ class C extends A {
 public class Example {
    public static void main(String[] args) {
 
-       // Create object for B
+       // Create an object for B class
        B b = new B();
 
-       // Display fun1 and fun2 data in B class
+       // Display fun1 and fun2 data present in B class
        b.fun1();
        b.fun2();
 
        // seperate space
        System.out.println();
 
-       // Create object for C
+       // Create an object for C class
        C c = new C();
        
-       // Display fun1 and fun2 data in C class
+       // Display fun1 and fun2 data present C class
        c.fun1();
        c.fun2();    
    } 
